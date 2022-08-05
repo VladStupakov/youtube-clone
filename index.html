@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube html/css only clone</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/video.css">
+</head>
+<body>
+    <header class="header opacity">
+        <div class="header__left-section">
+          <img class="header__left-section__menu pointer" src="icons/menu.svg">
+          <img class="header__left-section__youtube-logo pointer" src="icons/youtube-logo.svg">
+        </div>
+        <div class="header__middle-section">
+          <input class="header__middle-section__search-bar" type="text" placeholder="Search">
+          <button class="header__middle-section__search-button pointer">
+            <img class="header__middle-section__search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+          </button>
+          <button class="header__middle-section__voice-search-button pointer">
+            <img class="header__middle-section__voice-search-icon" src="icons/voice-search-icon.svg">
+            <div class="tooltip">Search with voice</div>
+          </button>
+        </div>
+        <div class="header__right-section">
+          <div class="header__right-section__upload-icon-container pointer">
+            <img class="header__right-section__upload-icon" src="icons/upload.svg">
+            <div class="tooltip">Create</div>
+          </div>
+          <div class="header__right-section__notifications-icon-container pointer">
+            <img class="header__right-section__notifications-icon" src="icons/notifications.svg">
+            <div class="header__right-section__notifications-count">3</div>
+          </div>
+          <img class="header__right-section__current-user-picture pointer" src="profile-pictures/unnamed.jpg">
+        </div>
+      </header>
+  
+      <nav class="sidebar">
+        <div class="sidebar__link">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </div>
+        <div class="sidebar__link">
+          <img src="icons/explore.svg">
+          <div>Explore</div>
+        </div>
+        <div class="sidebar__link">
+          <img src="icons/youtube-shorts-icon.svg">
+          <div>Shorts</div>
+        </div>
+        <div class="sidebar__link">
+          <img src="icons/subscriptions.svg">
+          <div>Subs</div>
+        </div>
+        <div class="sidebar__link">
+          <img src="icons/library.svg">
+          <div>Library</div>
+        </div>
+      </nav>
+  
+      <main>
+        <section class="tags-container opacity">
+          <div class="tags-container__tag pointer">tag 1</div>
+          <div class="tags-container__tag pointer">tag 2</div>
+          <div class="tags-container__tag pointer">very long tag 3</div>
+          <div class="tags-container__tag pointer">middle tag 4</div>
+          <div class="tags-container__tag pointer">another tag 5</div>
+          <div class="tags-container__tag pointer">tag 6</div>
+        </section>
+        <section class="video-grid">
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/hq720.webp">
+              <div class="video-time">60:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="profile-pictures/unnamed.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by@Eternal Eclipse
+                </p>
+                <p class="video-author">
+                  Epic Music World
+                </p>
+                <p class="video-stats">
+                  15M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+                        
+
+          
+        </section>
+      </main>
+</body>
+</html>
