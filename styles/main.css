@@ -17,7 +17,7 @@ p {
 }
 
 .tags-container{
-  height: 56px;
+  padding: 12px 0;
   display: flex;
   background-color: white;
   position: fixed;
@@ -27,6 +27,7 @@ p {
   border-bottom: 1px solid rgb(228, 228, 228);
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .tags-container__tag{
@@ -34,6 +35,7 @@ p {
   height: 32px;
   border: 1px solid rgb(228, 228, 228);
   align-items: center;
+  justify-content: center;
   padding: 0  20px;
   margin: 0 5px;
   border-radius: 40px;
@@ -44,6 +46,13 @@ p {
 
 .tags-container__tag:hover{
   background-color: rgb(224, 224, 224);
+}
+
+@media (max-width: 700px) {
+  .tags-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
 
 .opacity{
